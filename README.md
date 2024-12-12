@@ -35,8 +35,11 @@ Another important implication of this model is that it may be subject to overfit
 
 # Previous Work / Citatons
 1.)	Kaggle use of binary classification with fixed parameters on diabetes data set: https://www.kaggle.com/code/karthik7395/binary-classification-using-neural-networks 
+
 2.)	Data set: https://www.kaggle.com/datasets/mathchi/diabetes-data-set
+
 3.)	Manual optimization of neural networks: https://machinelearningmastery.com/manually-optimize-neural-networks/ 
+
 4.)	Overfitting and prevention of overfitting: https://medium.com/analytics-vidhya/the-perfect-fit-for-a-dnn-596954c9ea39 
 
 
