@@ -5,22 +5,34 @@ This script utilizes the tensorflow, scikeras and sklearn modules in Python to t
 The data set from Kaggle includes the following categories to predict if a patient is diabetic or not (See previous work and citations section for link):
 
 1.)	Number of times pregnant 
+
 2.)	Plasma glucose concentration 
+
 3.)	Diastolic blood pressure
+
 4.)	Tricep skin thickness 
+
 5.)	2 hour serum insulin levels
+
 6.)	BMI
+
 7.)	Diabetes pedigree function 
+
 8.)	Age 
+
 9.)	Outcome (1 for diabetic, 0 for not)
 
 # Model and hyperparameters 
 The code attached to this repository trains and tests several models with different parameters using GridSearchCV() and GridSearchCV.fit(). These functions find the model within the set of hyper parameters that produces the highest accuracy. The set of model hyper parameters are as follows: 
 
 Number of layers: (2,3)
+
 Nodes in first layer: (64,32,16)
+
 Epochs: (30, 60)
+
 Activation Function: (sigmoid, relu, tanh)
+
 Loss Function: (Binary Cross Entropy, Hinge)
 
 # Results
